@@ -1,0 +1,29 @@
+[
+  {
+    "question_text": "What is $2 + 2$?",
+    "choice_a": "3",
+    "choice_b": "4",
+    "choice_c": "5",
+    "choice_d": "6",
+    "correct_answer": "B",
+    "explanation": "Basic addition: $2 + 2 = 4$"
+  },
+  {
+    "question_text": "Which of the following is a natural number?",
+    "choice_a": "0",
+    "choice_b": "-5",
+    "choice_c": "7",
+    "choice_d": "$-\\frac{1}{2}$",
+    "correct_answer": "C",
+    "explanation": "Natural numbers are positive counting numbers: 1, 2, 3, ... The number 7 is a natural number."
+  },
+  {
+    "question_text": "Solve for $x$: $2x + 3 = 11$",
+    "choice_a": "$x = 3$",
+    "choice_b": "$x = 4$",
+    "choice_c": "$x = 5$",
+    "choice_d": "$x = 7$",
+    "correct_answer": "B",
+    "explanation": "Subtract 3 from both sides: $2x = 8$, then divide by 2: $x = 4$."
+  }
+]

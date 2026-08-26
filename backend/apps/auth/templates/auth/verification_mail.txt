@@ -1,0 +1,5 @@
+{%load i18n%}
+<p>{%trans 'Hello'%} {{user.username}},</p>
+<p>{%trans 'You have registered with'%} {{user.full_name}} {%trans 'at'%} MathMentor. {%trans 'In order to verify your identity, please verify you email address.'%}</p>
+<p>{%trans 'You can verify your email account by using this OTP '%}{{otp}}</p>
+<p>{%trans 'Thank you for wanting to be a part of our journey and welcome to the community.'%}</p>
