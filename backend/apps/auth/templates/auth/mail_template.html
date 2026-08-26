@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Email</title>
+    <style>
+      body {
+        font-family: Open-Sans, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+      }
+      .header {
+        background-color: #00929f;
+        padding: 20px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .content {
+        padding: 20px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333333;
+      }
+      .button {
+        display: inline-block;
+        padding: 12px 20px;
+        margin: 20px 0;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #00929f;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .footer {
+        padding: 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+        font-size: 12px;
+        color: #777777;
+      }
+    </style>
+  </head>
+  <body>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td class="header">
+                {{subject}}
+              </td>
+            </tr>
+            <tr>
+              <td class="content">
+                {{content|safe}}
+              </td>
+            </tr>
+            <tr>
+              <td class="footer">
+                &copy; 2026 Zabai, All rights reserved.<br>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

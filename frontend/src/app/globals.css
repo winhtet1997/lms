@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+    name: "math-mentor";
+    default: false;
+    prefersdark: false;
+    color-scheme: "light";
+    --color-base-100: #ffffff;
+    --color-base-200: #fcfcfc;
+    --color-base-300: oklch(92% 0.006 264.531);
+    --color-base-content: oklch(21% 0.034 264.665);
+    --color-primary: #3E57FC;
+    --color-primary-content: oklch(97% 0.013 17.38);
+    --color-secondary: #8C2BFB;
+    --color-secondary-content: oklch(96% 0.018 272.314);
+    --color-accent: #EC4899;
+    --color-accent-content: oklch(98% 0.031 120.757);
+    --color-neutral: #FFFFFF;
+    --color-neutral-content: oklch(20% 0.042 265.755);
+    --color-info: #0055B3;
+    --color-info-content: oklch(97% 0.014 254.604);
+    --color-success: #10B981;
+    --color-success-content: oklch(97% 0.021 166.113);
+    --color-warning: #FE9A00;
+    --color-warning-content: oklch(98% 0.016 73.684);
+    --color-error: #DC2626;
+    --color-error-content: oklch(97% 0.014 343.198);
+    --radius-selector: 0.5rem;
+    --radius-field: 0.5rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 2;
+}
+
+
+@layer base {
+    .card {
+        @apply bg-base-100 rounded-2xl;
+    }
+
+    h1 {
+        @apply text-5xl font-normal;
+    }
+
+    h2 {
+        @apply text-[2rem] font-bold;
+    }
+
+    h3 {
+        @apply text-2xl font-semibold;
+    }
+
+    h4 {
+        @apply text-xl font-semibold;
+    }
+
+    h5 {
+        @apply text-base font-semibold;
+    }
+
+    h6 {
+        @apply text-[0.875rem] font-medium;
+    }
+    P{
+        @apply text-base font-normal;
+    }
+}
+
+@layer components {
+    .bg-1 {
+        @apply bg-linear-to-br from-blue-500 to-cyan-500;
+    }
+
+    .bg-2 {
+        @apply bg-linear-to-br from-purple-500 to-pink-500;
+    }
+
+    .bg-3 {
+        @apply bg-linear-to-br from-green-500 to-emerald-500;
+    }
+
+    .bg-4 {
+        @apply bg-linear-to-br from-orange-500 to-red-500;
+    }
+
+    .bg-5 {
+        @apply bg-linear-to-br from-blue-800 to-sky-600;
+    }
+
+    .btn-bg-1 {
+        @apply btn bg-linear-to-br from-blue-500 to-cyan-500;
+    }
+}

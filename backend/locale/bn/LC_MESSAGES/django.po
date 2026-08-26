@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-12 05:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/auth/apps.py:10
+msgid "Authentication"
+msgstr ""
+
+#: apps/auth/models.py:10
+msgid "Guest"
+msgstr ""
+
+#: apps/auth/models.py:11
+msgid "Student"
+msgstr ""
+
+#: apps/auth/models.py:12
+msgid "Parent"
+msgstr ""
+
+#: apps/auth/models.py:13
+msgid "Tutor"
+msgstr ""
+
+#: apps/auth/models.py:14
+msgid "Superadmin"
+msgstr ""
+
+#: apps/auth/models.py:18
+msgid "Reset"
+msgstr ""
+
+#: apps/auth/models.py:19
+msgid "Verify"
+msgstr ""
+
+#: apps/auth/models.py:25
+msgid "user"
+msgstr ""
+
+#: apps/auth/models.py:26
+msgid "users"
+msgstr ""
+
+#: apps/auth/models.py:29
+msgid "full name"
+msgstr ""
+
+#: apps/auth/models.py:39
+msgid "role"
+msgstr ""
+
+#: apps/auth/models.py:41
+msgid "email address"
+msgstr ""
+
+#: apps/auth/models.py:43
+msgid "phone number"
+msgstr ""
+
+#: apps/auth/models.py:46
+msgid "is verified"
+msgstr ""
+
+#: apps/auth/models.py:60
+msgid "type"
+msgstr ""
+
+#: apps/auth/serializers.py:24 apps/auth/serializers.py:40
+msgid "Please Verify your Email Address"
+msgstr ""
+
+#: apps/auth/serializers.py:55
+msgid "Email or Phone is required."
+msgstr ""
+
+#: apps/auth/serializers.py:59
+msgid "Username is required"
+msgstr ""
+
+#: apps/auth/serializers.py:62
+msgid "This Username is taken"
+msgstr ""
+
+#: apps/auth/serializers.py:67
+msgid "User with this email already exists."
+msgstr ""
+
+#: apps/auth/serializers.py:71
+msgid "User with this phone already exists."
+msgstr ""
+
+#: apps/auth/serializers.py:76 apps/auth/serializers.py:170
+msgid "Passwords do not match."
+msgstr ""
+
+#: apps/auth/serializers.py:114
+msgid "Email or phone is required."
+msgstr ""
+
+#: apps/auth/serializers.py:122
+msgid "User not found with provided email or phone."
+msgstr ""
+
+#: apps/auth/serializers.py:126
+msgid "User is not verified. Please verify your account first."
+msgstr ""
+
+#: apps/auth/serializers.py:139 apps/auth/serializers.py:398
+msgid "OTP request limit exceeded. Try again later."
+msgstr ""
+
+#: apps/auth/serializers.py:150 apps/auth/serializers.py:416
+#: apps/auth/views.py:99 apps/auth/views.py:160
+msgid "OTP sent successfully."
+msgstr ""
+
+#: apps/auth/serializers.py:166 apps/auth/serializers.py:191
+msgid "Invalid or expired OTP."
+msgstr ""
+
+#: apps/auth/serializers.py:180
+msgid "Password reset successfully."
+msgstr ""
+
+#: apps/auth/serializers.py:215 apps/auth/serializers.py:243
+#: apps/auth/serializers.py:269
+msgid "Username or password did not match."
+msgstr ""
+
+#: apps/auth/serializers.py:219 apps/auth/serializers.py:246
+#: apps/auth/serializers.py:272
+msgid "User is not verified."
+msgstr ""
+
+#: apps/auth/serializers.py:224
+msgid "User is not a student."
+msgstr ""
+
+#: apps/auth/serializers.py:250
+msgid "User is not a parent."
+msgstr ""
+
+#: apps/auth/serializers.py:276
+msgid "User is not a tutor."
+msgstr ""
+
+#: apps/auth/serializers.py:376
+msgid "Email is required."
+msgstr ""
+
+#: apps/auth/serializers.py:380
+msgid "User not found with provided email."
+msgstr ""
+
+#: apps/auth/serializers.py:384
+msgid "User is already verified."
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:2
+#: apps/auth/templates/auth/verification_mail.txt:2
+msgid "Hello"
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:3
+msgid "You have requested for password change for "
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:3
+#: apps/auth/templates/auth/verification_mail.txt:3
+msgid "at"
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:3
+msgid ""
+"In order to verify your identity, please use the otp to verify userself."
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:5
+msgid "This otp will only be valid for 10 minutes"
+msgstr ""
+
+#: apps/auth/templates/auth/password_reset_mail.txt:6
+#: apps/auth/templates/auth/verification_mail.txt:5
+msgid ""
+"Thank you for wanting to be a part of our journey and welcome to the "
+"community."
+msgstr ""
+
+#: apps/auth/templates/auth/verification_mail.txt:3
+msgid "You have registered with"
+msgstr ""
+
+#: apps/auth/templates/auth/verification_mail.txt:3
+msgid "In order to verify your identity, please verify you email address."
+msgstr "আপনার পরিচয় যাচাই করার জন্য, অনুগ্রহ করে আপনার ইমেল ঠিকানা যাচাই করুন।"
+
+#: apps/auth/templates/auth/verification_mail.txt:4
+msgid "You can verify your email account by using this OTP "
+msgstr "এই ওটিপি ব্যবহার করে আপনি আপনার ইমেল অ্যাকাউন্ট যাচাই করতে পারবেন"
+
+#: apps/auth/views.py:60
+msgid "User registered successfully"
+msgstr "ব্যবহারকারী সফলভাবে নিবন্ধিত হয়েছেন"
+
+#: apps/auth/views.py:140
+msgid "Otp verified successfully."
+msgstr "ওটিপি সফলভাবে যাচাই করা হয়েছে।"
+
+#: apps/course/apps.py:9
+msgid "Course"
+msgstr "কোর্স"
+
+#: apps/course/models.py:7
+msgid "6"
+msgstr "৬"
+
+#: apps/course/models.py:8
+msgid "7"
+msgstr "৭"
+
+#: apps/course/models.py:9
+msgid "8"
+msgstr "৮"
+
+#: apps/course/models.py:10
+msgid "9"
+msgstr "৯"
+
+#: apps/course/models.py:11
+msgid "10"
+msgstr "১০"
+
+#: apps/course/models.py:12
+msgid "11"
+msgstr "১১"
+
+#: apps/course/models.py:13
+msgid "12"
+msgstr "১২"
+
+#: apps/course/models.py:18
+msgid "Math"
+msgstr "গণিত"
+
+#: apps/course/models.py:19
+msgid "Science"
+msgstr "বিজ্ঞান"
+
+#: apps/course/models.py:20 lms/settings.py:135
+msgid "English"
+msgstr "ইংরেজি"
+
+#: apps/course/models.py:21
+msgid "History"
+msgstr "ইতিহাস"
+
+#: apps/course/models.py:22
+msgid "Art"
+msgstr "শিল্প"
+
+#: apps/course/models.py:23
+msgid "Music"
+msgstr "সঙ্গীত"
+
+#: apps/course/models.py:24
+msgid "Physical Education"
+msgstr "শারীরিক শিক্ষা"
+
+#: apps/course/models.py:25
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: apps/course/models.py:30
+msgid "NULL"
+msgstr ""
+
+#: apps/course/models.py:31
+msgid "Video"
+msgstr "ভিডিও"
+
+#: apps/course/models.py:32
+msgid "Document"
+msgstr ""
+
+#: apps/course/models.py:37
+msgid "Icon Name"
+msgstr "আইকনের নাম"
+
+#: apps/course/models.py:48 apps/course/models.py:68 apps/course/models.py:98
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: lms/settings.py:136
+msgid "Burmese"
+msgstr "বার্মিজ"
+
+#: lms/settings.py:137
+msgid "Bengali"
+msgstr "বাংলা"
+
+#: lms/settings.py:138
+msgid "Norwegian"
+msgstr "নরওয়েজিয়ান"
